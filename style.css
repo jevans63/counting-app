@@ -1,6 +1,11 @@
 .display{
-    font-size: 32pt;
+    font-size: 128pt;
     border: 1px solid black;
+    text-align: center;
     width: 500px;
-    height: 500px;
+    height: 200px;
+}
+.add{
+    font-size: 32pt;
+    width: 500px;
 }
