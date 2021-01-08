@@ -9,6 +9,7 @@ function displayUpdate(value){
     display.innerHTML = num;
     if(num == 15){
         display.innerHTML = "GOAL";
+        document.getElementById("display1").style.backgroundColor = "lightgreen";
     }
 }
 ////////////////////////////////////////////////////////////////
