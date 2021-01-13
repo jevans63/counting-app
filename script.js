@@ -2,15 +2,16 @@ const display = document.querySelector(".display");
 
 ////////////////////////////////////////////////////////////////
 var num = 0;
+var goal = 10;
 
 //
 function displayUpdate(value){
-    if(num < 10){
+    if(num < goal){
         num += parseFloat(value);
         display.innerHTML = num;
     }
 
-    if(num == 10){
+    if(num == goal){
         display.innerHTML = "GOAL";
         document.getElementById("display1").style.backgroundColor = "lightgreen";
     }
