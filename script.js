@@ -2,7 +2,7 @@ const display = document.querySelector(".display");
 
 ////////////////////////////////////////////////////////////////
 var num = 0;
-var goal = 10;
+var goal = 15;
 
 //
 function displayUpdate(value){
